@@ -1,0 +1,150 @@
+{
+  "personalInfo": {
+    "fullName": "Sharmaine Malipol",
+    "professionalTitle": "Business Analyst",
+    "email": "sharmaine@example.com",
+    "phone": "09XX-XXX-XXXX",
+    "address": "Philippines",
+    "linkedin": null,
+    "portfolio": null
+  },
+  "professionalSummary": "Detail-oriented Business Analyst with a proven track record of transforming complex data into actionable insights, driving data-backed decisions, and improving business performance. Adept at workflow optimization, dashboard development, and cross-functional collaboration. Committed to enhancing operational efficiency and supporting organizational growth through data analysis.",
+  "coreCompetencies": [
+    "Data Analysis",
+    "Business Requirements Documentation (BRD)",
+    "Workflow Optimization",
+    "Dashboarding",
+    "Forecasting",
+    "Predictive Modeling",
+    "Strategic Problem Solving",
+    "Trend Analysis",
+    "Process Optimization",
+    "Cross-Functional Communication",
+    "Reporting",
+    "KPI Development",
+    "Interpretation",
+    "Project Coordination"
+  ],
+  "workExperience": [
+    {
+      "position": "Senior Business Analyst",
+      "company": "DataVista Solutions",
+      "location": null,
+      "startDate": "01/2019",
+      "endDate": "01/2024",
+      "achievements": [
+        "Developed automated dashboards, improving operational visibility by 40%.",
+        "Led organization-wide data-driven optimization projects, resulting in measurable performance gains.",
+        "Standardized documentation (BRDs, SOPs, workflow charts) to unify processes across teams.",
+        "Presented strategic insights directly to senior leadership, influencing quarterly business roadmaps."
+      ]
+    },
+    {
+      "position": "Business Analyst",
+      "company": "BrightCore Digital",
+      "location": null,
+      "startDate": "01/2015",
+      "endDate": "01/2019",
+      "achievements": [
+        "Designed predictive forecasting models to optimize marketing campaigns and reduce spending waste.",
+        "Automated manual reporting workflows, decreasing manual labor by 60%.",
+        "Collaborated with department leads to interpret data, recommend strategies, and improve KPIs."
+      ]
+    },
+    {
+      "position": "Administrative Assistant / Data Support",
+      "company": "Malvar Enterprise Hub",
+      "location": null,
+      "startDate": "01/2013",
+      "endDate": "01/2015",
+      "achievements": [
+        "Managed data systems and prepared monthly performance and analytics reports for management.",
+        "Supported inventory reconciliation and improved documentation accuracy across departments.",
+        "Enhanced organizational workflows through better data tracking systems."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor’s Degree in Information Technology",
+      "institution": "[University Name]",
+      "location": null,
+      "graduationYear": null,
+      "honors": null
+    },
+    {
+      "degree": "TechVoc: ICT – Computer System Servicing",
+      "institution": "Tanauan Institute Inc.",
+      "location": null,
+      "graduationYear": null,
+      "honors": "With Honors"
+    }
+  ],
+  "technicalSkills": {
+    "programmingLanguages": [
+      "Python",
+      "R"
+    ],
+    "frameworksLibraries": [
+      "Pandas",
+      "NumPy"
+    ],
+    "toolsPlatforms": [
+      "Power BI",
+      "Tableau",
+      "Excel",
+      "Google Workspace",
+      "Canva"
+    ],
+    "databases": [
+      "MySQL",
+      "PostgreSQL"
+    ],
+    "other": [
+      "Troubleshooting",
+      "Data Cleaning",
+      "Basic Networking"
+    ]
+  },
+  "certifications": [
+    {
+      "name": "Introduction to Cybersecurity",
+      "issuer": "Cisco",
+      "dateObtained": null,
+      "credentialId": null
+    },
+    {
+      "name": "Introduction to Data Science",
+      "issuer": "Cisco",
+      "dateObtained": null,
+      "credentialId": null
+    },
+    {
+      "name": "Ethical Hacker Course",
+      "issuer": "Cisco DTC CALABARZON",
+      "dateObtained": null,
+      "credentialId": null
+    }
+  ],
+  "projects": [],
+  "atsOptimization": {
+    "atsScore": 85,
+    "keywordDensity": "Optimal",
+    "suggestions": [
+      "Add quantifiable metrics to describe accomplishments.",
+      "Tailor skills list to specific job descriptions."
+    ],
+    "industryKeywords": [
+      "Business Analysis",
+      "Data Analytics",
+      "Reporting",
+      "Dashboarding"
+    ]
+  },
+  "metadata": {
+    "generatedAt": "2025-11-24T07:25:26.653Z",
+    "sourceType": "uploaded_resume",
+    "optimizationLevel": "professional",
+    "keywordCount": 45
+  }
+}

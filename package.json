@@ -1,0 +1,47 @@
+{
+  "name": "intelihire-server",
+  "version": "1.0.0",
+  "description": "InteliHire Job Portal Server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "verify-db": "node src/scripts/verify-db.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@google/genai": "^1.20.0",
+    "@google/generative-ai": "^0.24.1",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.8.0",
+    "compression": "^1.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "handlebars": "^4.7.8",
+    "helmet": "^8.1.0",
+    "html-to-text": "^9.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "mongoose": "^7.5.0",
+    "mongoose-paginate-v2": "^1.9.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^4.1.0",
+    "nodemailer": "^6.10.1",
+    "openai": "^5.13.1",
+    "pdf-parse": "^1.1.1",
+    "pdf-poppler": "^0.2.1",
+    "pdf-table-extractor": "^1.0.3",
+    "pdf2json": "^3.1.6",
+    "pdf2pic": "^3.2.0",
+    "pdfjs-dist": "^5.4.296",
+    "tesseract.js": "^6.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.6.4",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  }
+}

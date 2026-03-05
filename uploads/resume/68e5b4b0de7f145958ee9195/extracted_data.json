@@ -1,0 +1,112 @@
+{
+  "personal_information": {
+    "full_name": "Bryan Miranda",
+    "email": "bryanmiranda12081999@gmail.com",
+    "phone": "09919188796",
+    "address": "599 Peralta Street, 4730\nOld Sta Mesa Manila",
+    "linkedin": null,
+    "portfolio": null,
+    "professional_title": null
+  },
+  "professional_summary": "Seeking a position in a dynamic organization where I can apply\nmy abilities, learn new skills, and grow both personally and\nprofessionally while supporting the success of the team",
+  "work_experience": [
+    {
+      "position": null,
+      "company": "Teleperformance",
+      "location": null,
+      "start_date": "04/2025",
+      "end_date": "07/2025",
+      "responsibilities": [
+        "Handle inbound customer inquiries related to shipments: where’s my order, has it shipped yet, when is it arriving, what are the delivery options, etc.",
+        "Track orders and shipments, liaising with courier or delivery partners to get updates.",
+        "Process return or exchange requests, refunds, or damages.",
+        "Update customers via phone, email, chat (multichannel)."
+      ],
+      "achievements": []
+    },
+    {
+      "position": null,
+      "company": "Magellan Solutions",
+      "location": null,
+      "start_date": "11/2024",
+      "end_date": "04/2025",
+      "responsibilities": [
+        "International health care account, Snapshots, Labelling, Tagging of real time videos. Customer service representative, inbound and outbound calls."
+      ],
+      "achievements": []
+    },
+    {
+      "position": null,
+      "company": "City Savings bank",
+      "location": null,
+      "start_date": "10/2022",
+      "end_date": "06/2024",
+      "responsibilities": [
+        "Inventory Management / Report",
+        "Log the movement of motorcycles in and out of the warehouse",
+        "Ensure motorcycles comply with local regulations and have the necessary documentation"
+      ],
+      "achievements": []
+    }
+  ],
+  "education": [
+    {
+      "degree": "Senior highschool",
+      "institution": "Pawa High School",
+      "location": null,
+      "graduation_year": "2017",
+      "gpa": null,
+      "honors": null
+    },
+    {
+      "degree": null,
+      "institution": "Pawa Elementary School",
+      "location": null,
+      "graduation_year": "2016",
+      "gpa": null,
+      "honors": null
+    }
+  ],
+  "technical_skills": {
+    "programming_languages": [],
+    "frameworks_libraries": [],
+    "tools_platforms": [],
+    "databases": [],
+    "other": []
+  },
+  "soft_skills": [
+    "Hardworking",
+    "Trustworthy",
+    "Adaptable",
+    "Willing to learn",
+    "Can work under minimum supervision"
+  ],
+  "languages": [],
+  "certifications": [
+    {
+      "name": "NC II Passer ( Food and Beverage Services)",
+      "issuer": null,
+      "date_obtained": null,
+      "credential_id": null
+    }
+  ],
+  "projects": [],
+  "awards_honors": [],
+  "volunteer_work": [],
+  "references": [
+    {
+      "name": "Dexter Miranda",
+      "title": "Web Developer",
+      "company": null,
+      "phone": "09923150633",
+      "email": null
+    },
+    {
+      "name": "Carlo Miras",
+      "title": "Housekeeping Team Leader",
+      "company": null,
+      "phone": "09664211323",
+      "email": null
+    }
+  ]
+}

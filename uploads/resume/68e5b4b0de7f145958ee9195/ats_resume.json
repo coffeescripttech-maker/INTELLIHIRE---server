@@ -1,0 +1,114 @@
+{
+  "personalInfo": {
+    "fullName": "Bryan Miranda",
+    "professionalTitle": "Customer Service Representative",
+    "email": "bryanmiranda12081999@gmail.com",
+    "phone": "09919188796",
+    "address": "599 Peralta Street, 4730 Old Sta Mesa Manila",
+    "linkedin": null,
+    "portfolio": null
+  },
+  "professionalSummary": "Customer service professional with experience in handling customer inquiries, order tracking, and issue resolution. Adaptable and willing to learn new skills to support team success and organizational growth. Proven ability to work independently and provide excellent customer support through various communication channels.",
+  "coreCompetencies": [
+    "Customer Service",
+    "Order Tracking",
+    "Issue Resolution",
+    "Communication Skills",
+    "Inventory Management"
+  ],
+  "workExperience": [
+    {
+      "position": "Customer Service Representative",
+      "company": "Teleperformance",
+      "location": null,
+      "startDate": "04/2025",
+      "endDate": "07/2025",
+      "achievements": [
+        "Handled inbound customer inquiries related to shipment status and delivery options, ensuring customer satisfaction.",
+        "Tracked orders and shipments, collaborating with courier and delivery partners to provide timely updates to customers.",
+        "Processed return and exchange requests, resulting in efficient resolution of customer issues and maintained a high level of customer retention.",
+        "Utilized phone, email, and chat (multichannel) to communicate with customers, providing comprehensive support and information."
+      ]
+    },
+    {
+      "position": "Customer Service Representative",
+      "company": "Magellan Solutions",
+      "location": null,
+      "startDate": "11/2024",
+      "endDate": "04/2025",
+      "achievements": [
+        "Provided customer service for an international health care account, addressing inquiries and resolving issues effectively.",
+        "Performed data analysis tasks including snapshots, labeling, and tagging of real-time videos, contributing to improved data accuracy.",
+        "Handled inbound and outbound customer calls, providing support and assistance to resolve customer concerns and inquiries."
+      ]
+    },
+    {
+      "position": "Warehouse Associate",
+      "company": "City Savings bank",
+      "location": null,
+      "startDate": "10/2022",
+      "endDate": "06/2024",
+      "achievements": [
+        "Managed inventory, ensuring accurate stock levels and efficient tracking of assets.",
+        "Logged the movement of motorcycles in and out of the warehouse, maintaining detailed records of inventory transactions.",
+        "Ensured motorcycles complied with local regulations and had the necessary documentation, mitigating compliance risks and maintaining operational efficiency."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Senior High School Diploma",
+      "institution": "Pawa High School",
+      "location": null,
+      "graduationYear": "2017",
+      "honors": null
+    },
+    {
+      "degree": "Elementary Education",
+      "institution": "Pawa Elementary School",
+      "location": null,
+      "graduationYear": "2016",
+      "honors": null
+    }
+  ],
+  "technicalSkills": {
+    "programmingLanguages": [],
+    "frameworksLibraries": [],
+    "toolsPlatforms": [
+      "CRM Software",
+      "Microsoft Office Suite (Word, Excel, PowerPoint)"
+    ],
+    "databases": [],
+    "other": []
+  },
+  "certifications": [
+    {
+      "name": "NC II Passer (Food and Beverage Services)",
+      "issuer": null,
+      "dateObtained": null,
+      "credentialId": null
+    }
+  ],
+  "projects": [],
+  "atsOptimization": {
+    "atsScore": 87,
+    "keywordDensity": "Optimal",
+    "suggestions": [
+      "Quantify achievements in work experience.",
+      "Add specific technical skills related to customer service software."
+    ],
+    "industryKeywords": [
+      "Customer Service",
+      "Inbound Calls",
+      "Outbound Calls",
+      "Order Management",
+      "Inventory"
+    ]
+  },
+  "metadata": {
+    "generatedAt": "2025-10-08T00:47:51.514Z",
+    "sourceType": "uploaded_resume",
+    "optimizationLevel": "professional",
+    "keywordCount": 52
+  }
+}

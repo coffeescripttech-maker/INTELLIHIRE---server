@@ -1,0 +1,139 @@
+{
+  "personal_information": {
+    "full_name": "Sharmaine Malipol",
+    "email": "sharmaine@example.com",
+    "phone": "09XX-XXX-XXXX",
+    "address": "Philippines",
+    "linkedin": null,
+    "portfolio": null,
+    "professional_title": "Business Analyst"
+  },
+  "professional_summary": "Dynamic and detail-oriented Business Analyst with a strong track record of turning complex data into\nclear, actionable insights that accelerate business performance. Known for optimizing workflows,\nbuilding high-impact dashboards, and driving data-backed decisions across multiple business units.\nAdept at collaborating with cross-functional teams and translating technical information into strategic\ndirection. Committed to improving operational efficiency, elevating data practices, and supporting\norganizational growth through innovative analysis.",
+  "work_experience": [
+    {
+      "position": "Senior Business Analyst",
+      "company": "DataVista Solutions",
+      "location": null,
+      "start_date": "2019",
+      "end_date": "2024",
+      "responsibilities": [
+        "Developed automated dashboards improving operational visibility by 40%.",
+        "Led organization-wide data-driven optimization projects resulting in measurable performance gains.",
+        "Standardized documentation (BRDs, SOPs, workflow charts) used across teams to unify processes.",
+        "Presented strategic insights directly to senior leadership, influencing quarterly business roadmaps."
+      ],
+      "achievements": []
+    },
+    {
+      "position": "Business Analyst",
+      "company": "BrightCore Digital",
+      "location": null,
+      "start_date": "2015",
+      "end_date": "2019",
+      "responsibilities": [
+        "Designed predictive forecasting models used to optimize marketing campaigns and reduce spending waste.",
+        "Automated manual reporting workflows, decreasing manual labor by 60%.",
+        "Worked closely with department leads to interpret data, recommend strategies, and improve KPIs."
+      ],
+      "achievements": []
+    },
+    {
+      "position": "Administrative Assistant / Data Support",
+      "company": "Malvar Enterprise Hub",
+      "location": null,
+      "start_date": "2013",
+      "end_date": "2015",
+      "responsibilities": [
+        "Managed data systems and prepared monthly performance and analytics reports for management.",
+        "Supported inventory reconciliation and improved documentation accuracy across departments.",
+        "Enhanced organizational workflows through better data tracking systems."
+      ],
+      "achievements": []
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor’s Degree in Information Technology",
+      "institution": "[University Name]",
+      "location": null,
+      "graduation_year": null,
+      "gpa": null,
+      "honors": null
+    },
+    {
+      "degree": "TechVoc: ICT – Computer System Servicing",
+      "institution": "Tanauan Institute Inc.",
+      "location": null,
+      "graduation_year": null,
+      "gpa": null,
+      "honors": "With Honors"
+    }
+  ],
+  "technical_skills": {
+    "programming_languages": [
+      "Python",
+      "R"
+    ],
+    "frameworks_libraries": [
+      "Pandas",
+      "NumPy"
+    ],
+    "tools_platforms": [
+      "Power BI",
+      "Tableau",
+      "Excel",
+      "Google Workspace",
+      "Canva"
+    ],
+    "databases": [
+      "MySQL",
+      "PostgreSQL"
+    ],
+    "other": [
+      "Troubleshooting",
+      "Data Cleaning",
+      "Basic Networking"
+    ]
+  },
+  "soft_skills": [
+    "Data Analytics",
+    "Interpretation",
+    "KPI Development",
+    "Dashboarding",
+    "Forecasting",
+    "Predictive Modeling",
+    "Business Requirements Documentation (BRD)",
+    "Strategic Problem Solving",
+    "Trend Analysis",
+    "Workflow Optimization",
+    "Process Optimization",
+    "Cross-Functional Communication",
+    "Project Coordination",
+    "Reporting"
+  ],
+  "languages": [],
+  "certifications": [
+    {
+      "name": "Introduction to Cybersecurity",
+      "issuer": "Cisco",
+      "date_obtained": null,
+      "credential_id": null
+    },
+    {
+      "name": "Introduction to Data Science",
+      "issuer": "Cisco",
+      "date_obtained": null,
+      "credential_id": null
+    },
+    {
+      "name": "Ethical Hacker Course",
+      "issuer": "Cisco DTC CALABARZON",
+      "date_obtained": null,
+      "credential_id": null
+    }
+  ],
+  "projects": [],
+  "awards_honors": [],
+  "volunteer_work": [],
+  "references": []
+}

@@ -1,0 +1,21 @@
+# Verification Documents Upload Directory
+
+This directory stores company verification documents uploaded by admins.
+
+## File Naming
+- Pattern: `doc-<timestamp>-<random>.<ext>`
+- Example: `doc-1729234567890-123456789.pdf`
+
+## Accepted File Types
+- PDF (.pdf)
+- Images (.jpg, .jpeg, .png)
+- Word Documents (.doc, .docx)
+
+## Size Limit
+- Maximum: 5MB per file
+
+## Security
+- Admin-only upload access
+- File type validation (MIME)
+- Unique filename generation
+- No executable files allowed

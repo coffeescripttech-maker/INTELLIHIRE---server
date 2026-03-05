@@ -1,0 +1,289 @@
+```json
+{
+  "personal_information": {
+    "cs_id_no": null,
+    "surname": "Lopez",
+    "first_name": "Mark Anthony",
+    "middle_name": "Cruz",
+    "name_extension": null,
+    "date_of_birth": "03/15/1995",
+    "place_of_birth": "Quezon City Philippines",
+    "sex": "Male",
+    "civil_status": "Single",
+    "height": "170cm",
+    "weight": "70kg",
+    "blood_type": "O",
+    "gsis_id_no": "123456789",
+    "pag_ibig_id_no": "987654321",
+    "philhealth_no": "111-222-3333",
+    "sss_no": "321654987",
+    "tin_no": "123-456-789",
+    "agency_employee_no": "202405678",
+    "citizenship": "Filipino",
+    "dual_citizenship": null,
+    "residential_address": {
+      "house_block_lot": "123Mabuhay Street",
+      "street": null,
+      "subdivision_village": "GreenField Subdivision",
+      "barangay": "Barangay Central",
+      "city_municipality": "Quezon City",
+      "province": "Metro Manila",
+      "zip_code": "1101"
+    },
+    "permanent_address": {
+      "house_block_lot": "123Mabuhay Street",
+      "street": null,
+      "subdivision_village": "GreenField Subdivision",
+      "barangay": "Barangay Central",
+      "city_municipality": "Quezon City",
+      "province": "Metro Manila",
+      "zip_code": "1101"
+    },
+    "telephone_no": "(02) 987-6543",
+    "mobile_no": "0917-123-4567",
+    "email_address": "markk323@gmail.com"
+  },
+  "family_background": {
+    "spouse": {
+      "surname": "Garcia",
+      "first_name": "Maria Ana",
+      "middle_name": "Dela Cruz",
+      "occupation": "Teacher",
+      "employer_business_name": "Department of Education",
+      "business_address": null,
+      "telephone_no": null
+    },
+    "children": [
+      {
+        "name": "Juan Carlos Dela Cruz",
+        "date_of_birth": "09/08/2013"
+      },
+      {
+        "name": "Ana",
+        "date_of_birth": "01/18/2016"
+      },
+         {
+        "name": "Maria",
+        "date_of_birth": "12/05/2010"
+      }
+    ],
+    "father": {
+      "surname": "Lopez",
+      "first_name": "Pedro",
+      "middle_name": "Santos"
+    },
+    "mother": {
+      "maiden_name": "Dela Cruz",
+      "surname": "Gonzales",
+      "first_name": "Maria",
+      "middle_name": "Cruz"
+    }
+  },
+  "educational_background": [
+    {
+      "level": "ELEMENTARY",
+      "school_name": "Quezon City Elementary School",
+      "basic_education_degree_course": "Elementary Education",
+      "period_attendance": {
+        "from": "01/07/1991",
+        "to": "01/03/1997"
+      },
+      "highest_level_units_earned": null,
+      "year_graduated": "1997",
+      "scholarship_academic_honors": "N/A"
+    },
+    {
+      "level": "SECONDARY",
+      "school_name": "Quezon City Hgh School",
+      "basic_education_degree_course": "High School Education",
+      "period_attendance": {
+        "from": "01/07/1997",
+        "to": "01/03/2001"
+      },
+      "highest_level_units_earned": null,
+      "year_graduated": "2001",
+      "scholarship_academic_honors": "with honors"
+    },
+    {
+      "level": "VOCATIONAL",
+      "school_name": "Tesda Training Center",
+      "basic_education_degree_course": "AutomotiveS Servicing NC II",
+      "period_attendance": {
+        "from": "01/07/2005",
+        "to": "01/03/2006"
+      },
+      "highest_level_units_earned": null,
+      "year_graduated": "2006",
+      "scholarship_academic_honors": "N/A"
+    },
+    {
+      "level": "COLLEGE",
+      "school_name": "University of the Philippines,Diliman",
+      "basic_education_degree_course": "Bachelor of Science in Computer Science",
+      "period_attendance": {
+        "from": "01/07/2001",
+        "to": "01/03/2005"
+      },
+      "highest_level_units_earned": null,
+      "year_graduated": "2005",
+      "scholarship_academic_honors": "N/A"
+    },
+    {
+      "level": "GRADUATE STUDIES",
+      "school_name": "Polytechnic University of the Philippines",
+      "basic_education_degree_course": "Ph.D Computer Science",
+      "period_attendance": {
+        "from": "01/07/2008",
+        "to": "01/03/2010"
+      },
+      "highest_level_units_earned": null,
+      "year_graduated": "2010",
+      "scholarship_academic_honors": "N/A"
+    }
+  ],
+  "civil_service_eligibility": [
+    {
+      "career_service": "Certified Public Accountant",
+      "rating": null,
+      "date_of_examination": "08/08/2006",
+      "place_of_examination": "Manila",
+      "license_number": null,
+      "date_of_validity": null
+    }
+  ],
+  "work_experience": [
+    {
+      "position_title": "IT Specialist",
+      "department_agency_office_company": "ABC Corporation",
+      "inclusive_dates": {
+        "from": "01/03/2001",
+        "to": "07/04/2002"
+      },
+      "monthly_salary": 45000,
+      "salary_job_pay_grade": "18-1",
+      "status_of_appointment": "Permanent",
+      "govt_service": "N"
+    },
+    {
+      "position_title": "Web Developer",
+      "department_agency_office_company": "XYZ Technologies",
+      "inclusive_dates": {
+        "from": "01/06/1999",
+        "to": "01/02/2018"
+      },
+      "monthly_salary": 35000,
+      "salary_job_pay_grade": "15-1",
+      "status_of_appointment": "Contractual",
+      "govt_service": "N"
+    },
+    {
+      "position_title": "Junior Programmer",
+      "department_agency_office_company": "DEF Solutions",
+      "inclusive_dates": {
+        "from": "01/04/2005",
+        "to": "01/05/2009"
+      },
+      "monthly_salary": 25000,
+      "salary_job_pay_grade": "12-1",
+      "status_of_appointment": "Probationary",
+      "govt_service": "N"
+    }
+  ],
+  "voluntary_work": [
+    {
+      "name_address_organization": "Philippine Red Cross, Quezon City",
+      "position_nature_of_work": "Volunteer",
+      "inclusive_dates": {
+        "from": "01/01/2015",
+        "to": "Present"
+      },
+      "number_of_hours": "100 hrs/year"
+    },
+    {
+      "name_address_organization": "Gawad Kalinga, Manila",
+      "position_nature_of_work": "Volunteer Coordinator",
+      "inclusive_dates": {
+        "from": "01/06/2018",
+        "to": "01/12/2020"
+      },
+      "number_of_hours": "50 hrs/year"
+    },
+    {
+      "name_address_organization": "Habitat for Humanity, Quezon City",
+      "position_nature_of_work": "Volunteer Builder",
+      "inclusive_dates": {
+        "from": "01/03/2013",
+        "to": "01/05/2015"
+      },
+      "number_of_hours": "75 hrs/year"
+    }
+  ],
+  "learning_and_development": [
+    {
+      "title": "Project Management For IT Professionals",
+      "type_of_ld": "Technical",
+      "conducted_sponsored_by": "Tech Academy Philippines",
+      "inclusive_dates": {
+        "from": "06/15/2022",
+        "to": "06/30/2022"
+      },
+      "number_of_hours": "40 hours"
+    },
+    {
+      "title": "Data Science And Analytics Workshop",
+      "type_of_ld": "Manegerial",
+      "conducted_sponsored_by": "Philippine Management Institute",
+      "inclusive_dates": {
+        "from": "05/03/2021",
+        "to": "07/03/2021"
+      },
+      "number_of_hours": "24 hours"
+    },
+    {
+      "title": "Leadership and Management Training",
+      "type_of_ld": "Supervisory",
+      "conducted_sponsored_by": "Project Management Institute",
+      "inclusive_dates": {
+        "from": "10/09/2020",
+        "to": "09/14/2020"
+      },
+      "number_of_hours": "32 hours"
+    },
+    {
+      "title": "Advanced Web Development",
+      "type_of_ld": "Technical",
+      "conducted_sponsored_by": "National IT Society",
+      "inclusive_dates": {
+        "from": "01/20/2020",
+        "to": "01/22/2020"
+      },
+      "number_of_hours": "24 hours"
+    }
+  ],
+  "other_information": {
+    "special_skills_hobbies": "Financial reporting and analysis",
+    "non_academic_distinctions": "Employee of the Year (2019)",
+    "membership_in_organizations": null
+  },
+  "questionnaire_responses": {
+    "person_with_disability": false,
+    "solo_parent": false,
+    "member_of_indigenous_group": false,
+    "immigrant_permanent_resident": false,
+    "related_by_consanguinity_affinity": null,
+    "found_guilty_administrative_offense": null,
+    "criminally_charged": null,
+    "convicted_of_crime": null,
+    "candidate_in_election": false,
+    "resigned_for_election_campaign": false,
+    "separated_from_service": false
+  },
+  "references": [],
+  "authentication": {
+    "date_accomplished": null,
+    "government_issued_id": null,
+    "id_number": null,
+    "date_of_issuance": null
+  }
+}
+```
