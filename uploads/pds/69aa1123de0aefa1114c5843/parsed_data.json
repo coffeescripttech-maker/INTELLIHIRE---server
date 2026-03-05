@@ -1,0 +1,160 @@
+{
+  "personal_information": {
+    "cs_id_no": null,
+    "surname": "Vergara",
+    "first_name": "Rai Olric",
+    "middle_name": "Magdaraog",
+    "name_extension": null,
+    "date_of_birth": null,
+    "place_of_birth": null,
+    "sex": "Male",
+    "civil_status": "Single",
+    "height": "1.88",
+    "weight": "76",
+    "blood_type": "A+",
+    "gsis_id_no": null,
+    "pag_ibig_id_no": "574735590653",
+    "philhealth_no": "91054194113",
+    "sss_no": null,
+    "tin_no": "575082878",
+    "agency_employee_no": "153799",
+    "citizenship": "Filipino",
+    "dual_citizenship": null,
+    "residential_address": {
+      "house_block_lot": "76",
+      "street": "Piña Street",
+      "subdivision_village": "Sunrise Village",
+      "barangay": "San Isidro",
+      "city_municipality": "Tanauan",
+      "province": "Batangas",
+      "zip_code": "4232"
+    },
+    "permanent_address": {
+      "house_block_lot": "364",
+      "street": "Road",
+      "subdivision_village": null,
+      "barangay": "San Rafael",
+      "city_municipality": "Tanauan",
+      "province": "Batangas",
+      "zip_code": "4232"
+    },
+    "telephone_no": "123-4567-786",
+    "mobile_no": "0909-090-9090",
+    "email_address": "vergaraterrible10@gmail.com"
+  },
+  "family_background": {
+    "spouse": {
+      "surname": null,
+      "first_name": null,
+      "middle_name": null,
+      "occupation": null,
+      "employer_business_name": null,
+      "business_address": null,
+      "telephone_no": null
+    },
+    "children": [],
+    "father": {
+      "surname": "Vergara",
+      "first_name": "Juan",
+      "middle_name": "Balaguer"
+    },
+    "mother": {
+      "maiden_name": "Ortega",
+      "surname": "Vergara",
+      "first_name": "Pauline",
+      "middle_name": "Ortega"
+    }
+  },
+  "educational_background": [
+    {
+      "level": "ELEMENTARY",
+      "school_name": "San Rafael Elementary School",
+      "basic_education_degree_course": null,
+      "period_attendance": {
+        "from": "06/17/2000",
+        "to": "06/23/2006"
+      },
+      "highest_level_units_earned": null,
+      "year_graduated": "2006",
+      "scholarship_academic_honors": null
+    },
+    {
+      "level": "SECONDARY",
+      "school_name": "Cisco School",
+      "basic_education_degree_course": null,
+      "period_attendance": {
+        "from": "06/18/2006",
+        "to": "06/24/2010"
+      },
+      "highest_level_units_earned": null,
+      "year_graduated": "2010",
+      "scholarship_academic_honors": null
+    },
+    {
+      "level": "VOCATIONAL",
+      "school_name": "Tesda",
+      "basic_education_degree_course": "Bookkeeping",
+      "period_attendance": {
+        "from": "06/19/2010",
+        "to": "06/25/2012"
+      },
+      "highest_level_units_earned": null,
+      "year_graduated": "2012",
+      "scholarship_academic_honors": null
+    },
+    {
+      "level": "COLLEGE",
+      "school_name": "Batangas State University",
+      "basic_education_degree_course": "BS Accountancy",
+      "period_attendance": {
+        "from": "06/20/2012",
+        "to": "06/26/2016"
+      },
+      "highest_level_units_earned": null,
+      "year_graduated": "2016",
+      "scholarship_academic_honors": null
+    }
+  ],
+  "civil_service_eligibility": [],
+  "work_experience": [
+    {
+      "position_title": "Bank Teller",
+      "department_agency_office_company": "BDO Tanauan City",
+      "inclusive_dates": {
+        "from": "07/09/2017",
+        "to": "07/07/2025"
+      },
+      "monthly_salary": null,
+      "salary_job_pay_grade": null,
+      "status_of_appointment": null,
+      "govt_service": "N"
+    }
+  ],
+  "voluntary_work": [],
+  "learning_and_development": [],
+  "other_information": {
+    "special_skills_hobbies": "Auditing",
+    "non_academic_distinctions": "Employee of the Month",
+    "membership_in_organizations": "Arth Jhun A. Marasigan, Lean Six Sigma Black Belt"
+  },
+  "questionnaire_responses": {
+    "person_with_disability": null,
+    "solo_parent": null,
+    "member_of_indigenous_group": null,
+    "immigrant_permanent_resident": null,
+    "related_by_consanguinity_affinity": null,
+    "found_guilty_administrative_offense": null,
+    "criminally_charged": null,
+    "convicted_of_crime": null,
+    "candidate_in_election": null,
+    "resigned_for_election_campaign": null,
+    "separated_from_service": null
+  },
+  "references": [],
+  "authentication": {
+    "date_accomplished": "10/03/2024",
+    "government_issued_id": "Pag-ibig ID",
+    "id_number": "574735590653",
+    "date_of_issuance": null
+  }
+}

@@ -1,4 +1,5 @@
 const { GoogleGenerativeAI } = require('@google/generative-ai');
+const { rateLimiter } = require('../utils/gemini-rate-limiter');
 
 // Initialize GoogleGenerativeAI
 console.log('🔑 GEMINI_API_KEY exists:', !!process.env.GEMINI_API_KEY);
@@ -14,7 +15,8 @@ if (!process.env.GEMINI_API_KEY) {
 let genAI, model;
 try {
   genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-  model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+  // Using gemini-1.5-flash for better rate limits
+  model = genAI.getGenerativeModel({ model: 'gemini-3.1-flash-lite-preview' });
 
   console.log('🤖 GoogleGenerativeAI initialized:', !!genAI);
   console.log('🤖 Model initialized:', !!model);
@@ -189,9 +191,14 @@ Please convert this data into the structured JSON format above, following all en
         '🤖 Processing with GoogleGenerativeAI for resume generation...'
       );
 
-      // Generate content using Gemini
-      const result = await this.model.generateContent(improvedResumePrompt);
-      const responseText = result.response.text();
+      // Generate content using Gemini with rate limiting
+      const responseText = await rateLimiter.executeWithRetry(
+        async () => {
+          const result = await this.model.generateContent(improvedResumePrompt);
+          return result.response.text();
+        },
+        'Resume generation from PDS'
+      );
 
       console.log('✅ Received response from Gemini for resume generation');
 
@@ -293,8 +300,13 @@ Return ONLY the JSON object as output.`;
 
       console.log('🤖 Processing optimization with GoogleGenerativeAI...');
 
-      const result = await this.model.generateContent(optimizationPrompt);
-      const responseText = result.response.text();
+      const responseText = await rateLimiter.executeWithRetry(
+        async () => {
+          const result = await this.model.generateContent(optimizationPrompt);
+          return result.response.text();
+        },
+        'Resume optimization for job'
+      );
 
       console.log('✅ Received optimization response from Gemini');
 

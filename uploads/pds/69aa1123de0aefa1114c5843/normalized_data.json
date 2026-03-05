@@ -1,0 +1,144 @@
+{
+  "personalInformation": {
+    "firstName": "Rai Olric",
+    "lastName": "Vergara",
+    "middleName": "Magdaraog",
+    "nameExtension": "",
+    "dateOfBirth": "",
+    "placeOfBirth": "",
+    "sex": "Male",
+    "civilStatus": "Single",
+    "citizenship": {
+      "type": "Filipino",
+      "dualBy": null,
+      "country": null
+    },
+    "heightCm": "1.88",
+    "weightKg": "76",
+    "bloodType": "A+",
+    "gsisIdNo": "",
+    "pagIbigIdNo": "574735590653",
+    "philHealthNo": "91054194113",
+    "sssNo": "",
+    "tin": "575082878",
+    "agencyEmployeeNo": "153799",
+    "emailAddress": "vergaraterrible10@gmail.com",
+    "mobileNo": "0909-090-9090",
+    "telephoneNo": "123-4567-786",
+    "residentialAddress": {
+      "houseLotBlockNo": "76",
+      "street": "Piña Street",
+      "subdivisionVillage": "Sunrise Village",
+      "barangay": "San Isidro",
+      "cityMunicipality": "Tanauan",
+      "province": "Batangas",
+      "zipCode": "4232"
+    },
+    "permanentAddress": {
+      "houseLotBlockNo": "364",
+      "street": "Road",
+      "subdivisionVillage": "",
+      "barangay": "San Rafael",
+      "cityMunicipality": "Tanauan",
+      "province": "Batangas",
+      "zipCode": "4232"
+    }
+  },
+  "familyBackground": {
+    "spouse": {
+      "firstName": "",
+      "lastName": "",
+      "middleName": "",
+      "nameExtension": "",
+      "occupation": "",
+      "businessName": "",
+      "businessAddress": "",
+      "telephoneNo": ""
+    },
+    "father": {
+      "firstName": "Juan",
+      "lastName": "Vergara",
+      "middleName": "Balaguer",
+      "nameExtension": ""
+    },
+    "motherMaidenName": {
+      "firstName": "Pauline",
+      "lastName": "Vergara",
+      "middleName": "Ortega",
+      "nameExtension": ""
+    },
+    "children": []
+  },
+  "educationalBackground": [
+    {
+      "level": "ELEMENTARY",
+      "nameOfSchool": "San Rafael Elementary School",
+      "basicEducationDegreeCourse": "",
+      "periodOfAttendance": {
+        "from": "06/17/2000",
+        "to": "06/23/2006"
+      },
+      "yearGraduated": "2006",
+      "scholarshipAcademicHonorsReceived": ""
+    },
+    {
+      "level": "SECONDARY",
+      "nameOfSchool": "Cisco School",
+      "basicEducationDegreeCourse": "",
+      "periodOfAttendance": {
+        "from": "06/18/2006",
+        "to": "06/24/2010"
+      },
+      "yearGraduated": "2010",
+      "scholarshipAcademicHonorsReceived": ""
+    },
+    {
+      "level": "VOCATIONAL",
+      "nameOfSchool": "Tesda",
+      "basicEducationDegreeCourse": "Bookkeeping",
+      "periodOfAttendance": {
+        "from": "06/19/2010",
+        "to": "06/25/2012"
+      },
+      "yearGraduated": "2012",
+      "scholarshipAcademicHonorsReceived": ""
+    },
+    {
+      "level": "COLLEGE",
+      "nameOfSchool": "Batangas State University",
+      "basicEducationDegreeCourse": "BS Accountancy",
+      "periodOfAttendance": {
+        "from": "06/20/2012",
+        "to": "06/26/2016"
+      },
+      "yearGraduated": "2016",
+      "scholarshipAcademicHonorsReceived": ""
+    }
+  ],
+  "civilServiceEligibility": [],
+  "workExperience": [
+    {
+      "positionTitle": "Bank Teller",
+      "departmentAgencyOfficeCompany": "BDO Tanauan City",
+      "from": "07/09/2017",
+      "to": "07/07/2025",
+      "monthlySalary": 0,
+      "salaryJobPayGradeStep": "",
+      "statusOfAppointment": "",
+      "governmentService": false
+    }
+  ],
+  "voluntaryWork": [],
+  "trainings": [],
+  "skills": [
+    "Auditing"
+  ],
+  "recognitions": [
+    "Employee of the Month"
+  ],
+  "memberships": [
+    "Arth Jhun A. Marasigan",
+    "Lean Six Sigma Black Belt"
+  ],
+  "references": []
+}

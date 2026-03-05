@@ -660,10 +660,12 @@ applicantRankingSchema.statics.calculateAIScore = async function (
 ) {
   try {
     const { GoogleGenerativeAI } = require('@google/generative-ai');
+    const { rateLimiter } = require('../utils/gemini-rate-limiter');
     const Job = require('./job.model');
 
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+    // Using gemini-1.5-flash for better rate limits
+    const model = genAI.getGenerativeModel({ model: 'gemini-3.1-flash-lite-preview' });
 
     const job = await Job.findById(jobId);
     if (!job) return { score: 0, reasons: [], concerns: [], strengths: [] };
@@ -751,9 +753,14 @@ ${JSON.stringify(jobData, null, 2)}
   ]
 }`;
 
-    const result = await model.generateContent(prompt);
-    const response = await result.response;
-    const text = response.text();
+    const text = await rateLimiter.executeWithRetry(
+      async () => {
+        const result = await model.generateContent(prompt);
+        const response = await result.response;
+        return response.text();
+      },
+      'Applicant ranking analysis'
+    );
 
     console.log('Raw Gemini response for ranking:', text);
 

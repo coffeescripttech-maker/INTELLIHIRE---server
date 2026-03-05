@@ -5,6 +5,7 @@ const { auth, authorize } = require('../middleware/auth.middleware');
 const Job = require('../models/job.model');
 const Company = require('../models/company.model');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
+const { rateLimiter } = require('../utils/gemini-rate-limiter');
 
 // Middleware for validation
 const validate = (req, res, next) => {
@@ -1113,7 +1114,8 @@ async function calculateAIMatchScore(job, applicant) {
   try {
     // Initialize Gemini AI
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+    // Using gemini-1.5-flash for better rate limits
+    const model = genAI.getGenerativeModel({ model: 'gemini-3.1-flash-lite-preview' });
 
     // Prepare candidate profile data
     const candidateProfile = {
@@ -1191,9 +1193,14 @@ ${JSON.stringify(jobData, null, 2)}
   ]
 }`;
 
-    const result = await model.generateContent(prompt);
-    const response = await result.response;
-    const text = response.text();
+    const text = await rateLimiter.executeWithRetry(
+      async () => {
+        const result = await model.generateContent(prompt);
+        const response = await result.response;
+        return response.text();
+      },
+      'Job matching analysis'
+    );
 
     console.log('Raw Gemini response:', text);
 

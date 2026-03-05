@@ -8,6 +8,7 @@ const User = require('../models/user.model');
 const PdsExtractedData = require('../models/pdsExtractedData.model');
 const Resume = require('../models/resume.model');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
+const { rateLimiter } = require('../utils/gemini-rate-limiter');
 
 // Middleware for validation
 const validate = (req, res, next) => {
@@ -417,7 +418,7 @@ async function generateCareerPathsWithAI(applicant, options = {}) {
   try {
     // Initialize Gemini AI
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-3.1-flash-lite-preview' });
 
     // Prepare candidate profile data
     const candidateProfile = {
@@ -473,9 +474,14 @@ Education: ${candidateProfile.education.map(e => e.degree).join(', ')}
   }
 ]`;
 
-    const result = await model.generateContent(prompt);
-    const response = await result.response;
-    const text = response.text();
+    const text = await rateLimiter.executeWithRetry(
+      async () => {
+        const result = await model.generateContent(prompt);
+        const response = await result.response;
+        return response.text();
+      },
+      'Career path generation'
+    );
 
     console.log('Raw Gemini career paths response:', text);
 
@@ -916,7 +922,7 @@ async function generateAICareerInsights(careerPath, applicant) {
   try {
     // Initialize Gemini AI
     const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-    const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash' });
+    const model = genAI.getGenerativeModel({ model: 'gemini-3.1-flash-lite-preview' });
 
     // Prepare candidate profile data
     const candidateProfile = {
@@ -969,9 +975,14 @@ Career: ${careerPath.skills.slice(0, 5).join(', ')} | ${careerPath.level} level
   }
 }`;
 
-    const result = await model.generateContent(prompt);
-    const response = await result.response;
-    const text = response.text();
+    const text = await rateLimiter.executeWithRetry(
+      async () => {
+        const result = await model.generateContent(prompt);
+        const response = await result.response;
+        return response.text();
+      },
+      'Career insights generation'
+    );
 
     console.log('Raw Gemini career insights response:', text);
 
